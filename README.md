@@ -1,6 +1,6 @@
 # Desafio de Projeto sobre Git/Github da Dio
 
-Repositório criado para o Desafio de Projeto
+Repositório criado para o primeiro Desafio de Projeto da Dio
 
 
 
