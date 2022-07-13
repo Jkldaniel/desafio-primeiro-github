@@ -3,3 +3,6 @@ https://unsplash.com/s/photos
 
 Diminuir fotos sem perder qualidade
 https://tinypng.com/
+
+Mozila Developer
+https://developer.mozilla.org/pt-BR/
