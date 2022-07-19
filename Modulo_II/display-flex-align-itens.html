@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos align-item</title>
+</head>
+<body>
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .stretch{
+            align-items: stretch;
+        }
+
+        .start{
+            align-items: flex-start;
+        }
+
+        .end{
+            align-items: flex-end;
+        }
+
+        .baseline{
+            align-items: baseline;
+        }
+
+        .colums{
+            flex-direction: column;
+        }
+
+        .central{
+            height: 300px;
+            justify-content: center;
+            padding: 20px;
+            
+        }
+
+        
+    </style>  
+</body>
+    <h1>Row</h1>
+    <p>Center</p>
+    <section class="container center">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste</div>
+        <div class="item">item 3 e mais algumas outras palavras. Mais algumas palavras para identificar a diferença dos dois blocos</div>
+    </section>
+
+    <p>stretch</p>
+    <section class="container stretch">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste e muitas outras paa a gente entender melhor o comportamento</div>
+        <div class="item">item 3 e mais algumas outras palavras</div>
+    </section>
+
+    <p>flex-start</p>
+    <section class="container start">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste e muitas outras paa a gente entender melhor o comportamento</div>
+        <div class="item">item 3 e mais algumas outras palavras</div>
+    </section>
+
+    <p>flex-end</p>
+    <section class="container end">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste e muitas outras paa a gente entender melhor o comportamento</div>
+        <div class="item">item 3 e mais algumas outras palavras</div>
+    </section>
+
+    <p>baseline</p>
+    <section class="container baseline">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste e muitas outras paa a gente entender melhor o comportamento</div>
+        <div class="item">item 3 e mais algumas outras palavras</div>
+    </section>
+
+    <h1>Columns</h1>
+    <p>Center</p>
+    <section class="container center colums">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste</div>
+        <div class="item">item 3 e mais algumas outras palavras. Mais algumas palavras para identificar a diferença dos dois blocos</div>
+    </section>
+
+    <p>stretch</p>
+    <section class="container stretch colums">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste e muitas outras paa a gente entender melhor o comportamento</div>
+        <div class="item">item 3 e mais algumas outras palavras</div>
+    </section>
+
+    <p>flex-start</p>
+    <section class="container start colums">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste e muitas outras paa a gente entender melhor o comportamento</div>
+        <div class="item">item 3 e mais algumas outras palavras</div>
+    </section>
+
+    <p>flex-end</p>
+    <section class="container end colums">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste e muitas outras paa a gente entender melhor o comportamento</div>
+        <div class="item">item 3 e mais algumas outras palavras</div>
+    </section>
+
+    <p>baseline</p>
+    <section class="container baseline colums">
+        <div class="item">item 1</div>
+        <div class="item">item 2 e mais algumas palavras de teste e muitas outras paa a gente entender melhor o comportamento</div>
+        <div class="item">item 3 e mais algumas outras palavras</div>
+    </section>
+
+    <p>alinhamento central à tela</p>
+    <section class="container central center">
+        <div class="item">item 1</div>
+    </section>
+
+</html>
